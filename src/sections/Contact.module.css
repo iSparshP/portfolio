@@ -1,0 +1,97 @@
+.contact {
+    min-height: 80vh;
+    width: 100%;
+    padding: var(--spacing-xl) var(--spacing-md);
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.heading {
+    font-size: clamp(2rem, 5vw, 4rem);
+    text-transform: uppercase;
+    margin-bottom: var(--spacing-lg);
+    color: var(--text-color);
+    text-align: center;
+}
+
+.content {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+
+.text {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: var(--spacing-xl);
+    line-height: 1.6;
+}
+
+.emailButton {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 1.2rem;
+    color: var(--bg-color);
+    background-color: var(--accent-color);
+    padding: 16px 32px;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-bottom: var(--spacing-xl);
+}
+
+.emailButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(0, 255, 204, 0.4);
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-lg);
+}
+
+.socialLink {
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    color: #888;
+    position: relative;
+    transition: color 0.2s;
+}
+
+.socialLink::before {
+    content: '[';
+    margin-right: 4px;
+    color: #444;
+    transition: color 0.2s;
+}
+
+.socialLink::after {
+    content: ']';
+    margin-left: 4px;
+    color: #444;
+    transition: color 0.2s;
+}
+
+.socialLink:hover {
+    color: var(--text-color);
+}
+
+.socialLink:hover::before,
+.socialLink:hover::after {
+    color: var(--accent-color);
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: #444;
+}
