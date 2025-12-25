@@ -7,6 +7,12 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
     {
+        title: 'Pulsar Classification (CNN-MLP)',
+        description: 'Engineered ML pipeline for HTRU2 dataset using Multimodal CNN-MLP with Attention mechanisms. Achieved 98.74% accuracy and 96.81% recall, outperforming RF/SVM benchmarks.',
+        tech: ['Python', 'TensorFlow', 'CNN', 'SMOTE'],
+        link: '#'
+    },
+    {
         title: 'Server Metrics Pipeline (GCP)',
         description: 'High-throughput pipeline processing 400K+ metrics/min using Python & GCP. Architected Medallion architecture in BigQuery improving data quality by 95%. Optimized costs by 40% via clustering.',
         tech: ['GCP', 'BigQuery', 'Composer', 'Python'],

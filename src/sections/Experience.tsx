@@ -7,11 +7,11 @@ gsap.registerPlugin(ScrollTrigger);
 
 const experiences = [
     {
-        role: 'SDE Data Intern',
+        role: 'SDE Data 1',
         company: 'Refyne India',
-        date: 'Mar 2024 – Current',
-        description: 'Migrated pipelines to PyArrow + Parquet on S3/Redshift (60% cost cut). Built Airflow/Lambda ETL for Govt. of Rajasthan reducing manual effort by 80%. Automated validation for $10M+ data.',
-        tech: ['PyArrow', 'Redshift', 'Airflow', 'AWS Lambda']
+        date: 'Mar 2025 – Present',
+        description: 'Migrated legacy pipelines to PyArrow + Parquet (60% storage reduction). Automated repayment ETL for Govt. of Rajasthan. Resolved $10M+ data misalignment issue. Designed high-performance ETL v2 migration pipeline.',
+        tech: ['Kafka', 'Python', 'Redshift', 'Debezium', 'PyArrow']
     },
     {
         role: 'Data Engineering Intern',
